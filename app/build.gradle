@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'com.tekseker.simplewidget' // <-- ADD THIS LINE
+    namespace 'com.tekseker.simplewidget' // Required by AGP 8+
     compileSdkVersion 35
 
     defaultConfig {
         applicationId "com.tekseker.simplewidget"
-        minSdkVersion 21
+        minSdkVersion 26 // Android 8.0
         targetSdkVersion 35
         versionCode 1
         versionName "1.0"
