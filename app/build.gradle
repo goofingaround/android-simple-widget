@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.tekseker.simplewidget' // <-- ADD THIS LINE
     compileSdkVersion 35
 
     defaultConfig {
